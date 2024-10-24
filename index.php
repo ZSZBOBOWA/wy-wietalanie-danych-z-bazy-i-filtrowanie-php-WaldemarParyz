@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
+
+<form action="POST" action="index.php">
+    Wpisz nazwisko: <input type="text" name="nazwisko">
+    <input type="submit" value="Filtruj">
+</form>
 <?php
 $servername = "localhost";
 $username = "root";
